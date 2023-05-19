@@ -68,7 +68,7 @@ model = tf.keras.models.load_model('path/to/model')
 ```
 
 ## Results and Observations
-### Multilayer Perceptron
+### Multi-Layer Perceptron
 Training loss drops dramatically at epoch 1 before slowly decreasing with each subsequent epoch. Validation loss varies, with it decreasing throughout model training, spiking at epoch 6 before returning to normal. 
 
 Overall Loss on Test Data: 2,693
