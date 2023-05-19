@@ -1,6 +1,7 @@
-# Options Price Forecasting
+# Options Price Forecasting with Deep Learning Neural Networks
 
 ## Description
+The goal 
 The goal of the project is to utilize deep learning techniques to predict option prices. Options pricing is a complex task that requires analyzing various market factors and dynamics. Traditional models often struggle to capture the complex relationships in the data, which is why we saw the need for deep learning models. 
 
 To tackle this problem, different deep learning models were trained:
