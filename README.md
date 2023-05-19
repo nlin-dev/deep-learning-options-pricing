@@ -1,7 +1,12 @@
 # Options Price Forecasting with Deep Learning Neural Networks
 
+## Authors 
+Nicholas Lin is a graduate of NYU's Center for Data Science's Computer Science and Data Science double-major. He is currently pursuing further studies at Columbia University, where he is focused on real world data science applications, especially in regards to protected groups and implementing transparent machine learning models.
+
+Roy Zhou is also a graduate of NYU's Center for Data Science's Computer Science and Data Science double-major. He is currently a Data Scientist at BNY Mellon, a leading global financial investment bank, and is currently working on designing deep learning algorithms which could have a greater effect within the broader financial domain.
+
 ## Abstract
-We utilized various deep-learning neural networks to predict open-market options prices. Given that options pricing is inherently a complex tasks, there are many equations and algorithms used in the financial domain. One of these is the Black-Scholes model which views options prices as a differential equation of both contract terms and financial states.
+We utilized various deep-learning neural networks to predict open-market options prices. Given that options pricing is inherently a complex tasks, there are many equations and algorithms used in the financial domain. One of these is the Black-Scholes model which views options prices as a differential equation of both contract terms and financial states. Traditional models, often relying on stock prices and features,
 
 
 The goal of the project is to utilize deep learning techniques to predict option prices. Options pricing is a complex task that requires analyzing various market factors and dynamics. Traditional models often struggle to capture the complex relationships in the data, which is why we saw the need for deep learning models. 
