@@ -1,7 +1,9 @@
 # Options Price Forecasting with Deep Learning Neural Networks
 
-## Description
-The goal 
+## Abstract
+We utilized various deep-learning neural networks to predict open-market options prices. Given that options pricing is inherently a complex tasks, there are many equations and algorithms used in the financial domain. One of these is the Black-Scholes model which views options prices as a differential equation of both contract terms and financial states.
+
+
 The goal of the project is to utilize deep learning techniques to predict option prices. Options pricing is a complex task that requires analyzing various market factors and dynamics. Traditional models often struggle to capture the complex relationships in the data, which is why we saw the need for deep learning models. 
 
 To tackle this problem, different deep learning models were trained:
