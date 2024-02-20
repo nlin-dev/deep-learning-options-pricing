@@ -5,6 +5,7 @@
 The original financial information this dataset was based off contained historical options trading data for Tesla (TSLA), Apple (AAPL), and Google (GOOG). Some of the fundamental Greeks it encompasses are contract strike price, bid size, ask size, volume, implied volatility, delta, and theta. This dataset was prepared with the intent to be trained in various Recurrent Neural Networks as options pricing is a complex task that requires analyzing various market factors and dynamics. Traditional models, which are trained on much more simplistic stock data, often struggles to capture the complex relationships within options data.
 
 The datasets which comprise this dataset can be found here: https://drive.google.com/drive/folders/14UDaBowufW9BTIz6CvdKxtkL2l0c_DAB?usp=sharing 
+
 These datasets contain both call and put data and targets, as well as a general options pricing dataset for Tesla (TSLA).
 
 
