@@ -1,14 +1,13 @@
-# Options Price Forecasting with Deep Learning Neural Networks
+# Options Price Forecasting
 
-## Authors 
-Nicholas Lin is a graduate of NYU's Center for Data Science's Computer Science and Data Science double-major. He is currently pursuing a Master degree at Columbia University, where he is focused on real world data science applications, especially in regards to protected groups and implementing transparent machine learning models.
+## Description
+The goal of the project is to utilize deep learning techniques to predict option prices. Options pricing is a complex task that requires analyzing various market factors and dynamics. Traditional models often struggle to capture the complex relationships in the data, which is why we saw the need for deep learning models. 
 
-Roy Zhou is a graduate of NYU's Center for Data Science's Computer Science and Data Science double-major. He is currently a Data Scientist at BNY Mellon, a leading global financial investment bank, and is working on designing deep learning algorithms within the broader financial domain.
-
-## Abstract
-We utilized various deep-learning neural networks to predict open-market options prices. Given that options pricing is inherently a complex tasks, there are many equations and algorithms used in the financial domain. One of these is the Black-Scholes model which views options prices as a differential equation of both contract terms and financial states. Traditional models, often relying and being built on stock prices and their inherent features, often struggle to capture the complex relationships within the data. Because of this, the need for deep learning models that could capture the financial mechanics underlying these options was obvious to us.
-
-We trained 4 deep-learning models to address varying aspects of these issues within options pricing: Multi-Layer Perceptron, Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM), and Gated Recurrent Unit (GRU). We trained all of our models on historical options data from companies within the NASDAQ including Apple (AAPL), Tesla (TSLA), and Google (GOOG). This options was split into both calls and puts data in order to train the models within different options fundamentals.
+To tackle this problem, different deep learning models were trained:
+1. Multilayer Perceptron
+2. Recurrent Neural Network (RNN)
+3. Long Short-Term Memory (LSTM)
+4. Gated Recurrent Unit (GRU)
 
  
 ## Repository Structure
@@ -68,7 +67,7 @@ model = tf.keras.models.load_model('path/to/model')
 ```
 
 ## Results and Observations
-### Multi-Layer Perceptron
+### Multilayer Perceptron
 Training loss drops dramatically at epoch 1 before slowly decreasing with each subsequent epoch. Validation loss varies, with it decreasing throughout model training, spiking at epoch 6 before returning to normal. 
 
 Overall Loss on Test Data: 2,693
